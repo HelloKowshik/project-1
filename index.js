@@ -29,9 +29,6 @@ inputScore.addEventListener('change', e => {
             p2Btn.removeAttribute('disabled');
             winningScore = val;
             displayScore.innerText = winningScore;
-            // p1Display.textContent = 0;
-            // p2Display.textContent = 0;
-            // result.innerHTML = ''
             resetBtnFunc();
             console.log(val,winningScore);
     }    
